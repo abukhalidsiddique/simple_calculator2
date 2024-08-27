@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ 
+
+.full
+{
+   width:30%;
+   margin:0 auto;
+      
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+ 
+  padding:  0% 5%;
+}
+
+.grid-item {
+   
+  
+   
+  font-size: 30px;
+  text-align: center;
+}
+
+ 
+button
+{
+  width:100%;
+  background-color: rgb(94, 218, 218);
+  color:red
+}
+button:hover
+{
+  background-color: yellow;
+  
+}
+
+.result
+{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  height:50px;
+  text-align: right;
+  font-size: 25px;
+  font-weight: bold;
+  background: #ecabab;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Calculator</h1>
+<div class="full">
+ 
+ 
+
+
+<div class="grid-container">
+  <input type="text" class="result">
+  <button class="grid-item">ON</button>
+  <button class="grid-item">M</button>
+  <button class="grid-item">C</button>  
+  <button class="grid-item">AC</button>
+  <button class="grid-item">7</button>
+  <button class="grid-item">8</button>  
+  <button class="grid-item">9</button>
+  <button class="grid-item">/</button>
+  <button class="grid-item">4</button> 
+  <button class="grid-item">5</button>
+  <button class="grid-item">6</button>
+  <button class="grid-item">*</button>  
+  <button class="grid-item">1</button>
+  <button class="grid-item">2</button>
+  <button class="grid-item">3</button>  
+  <button class="grid-item">-</button>
+  <button class="grid-item">0</button>
+  <button class="grid-item">%</button>
+  <button class="grid-item">=</button>
+  <button class="grid-item">+</button>
+</div>
+</div>
+</body>
+</html>
+
+
